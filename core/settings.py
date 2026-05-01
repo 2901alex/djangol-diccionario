@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 import environ
 
-env=eniron.Env()
+env=environ.Env()
 environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'core',
+    'moto',
 ]
 
 MIDDLEWARE = [
